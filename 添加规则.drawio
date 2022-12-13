@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T15:19:56.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="XrU5oQEXw9NJwnW0TnXC" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-13T15:25:58.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="KMK_Ij_7Ok6PrYsdvZXU" version="20.6.2" type="github" pages="2">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
-    <mxGraphModel dx="1426" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,7 +427,7 @@
         <mxCell id="i_n5pQmc-10EYHimAXUS-295" value="" style="ellipse;" vertex="1" parent="1">
           <mxGeometry x="550.0000000000001" y="929.0042901234568" width="9.999999999999886" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="i_n5pQmc-10EYHimAXUS-302" value="排餐规则：&#xa;1 对满足规则的餐别&#xa;    1.1 对于已移除的排餐，规则生效时间&gt;移除时间，可重新排餐&#xa;    1.2 以人工排餐，优先级最高&#xa;    1.3  以上两点都是重置排餐，对于无规则的规则，要移除排餐，&#xa;    不管是否是人工排餐。&#xa;2 不满足规则的餐别，只有规则为按周重复才会存在&#xa;    2.1 周别不同，无需移除&#xa;    2.2 对于普通规则&amp;&amp;人工排餐，无需移除&#xa;    2.3 其他情况，都需要移除" style="shape=note;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="i_n5pQmc-10EYHimAXUS-302" value="排餐规则：&#xa;1 对满足规则的餐别&#xa;    1.1 对于已移除的排餐，规则生效时间&gt;移除时间，可重新排餐&#xa;    1.2 以人工排餐，优先级最高&#xa;    1.3  以上两点都是重置排餐，对于无规则的规则，要移除排餐，&#xa;    不管是否是人工排餐。&#xa;2 不满足规则的餐别，只有规则为按周重复才会存在&#xa;    2.1 排餐按周重复，且周别不同，无需移除&#xa;    2.2 对于普通规则&amp;&amp;人工排餐，无需移除&#xa;    2.3 其他情况，都需要移除" style="shape=note;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="589.97" y="880" width="350.03" height="160" as="geometry" />
         </mxCell>
         <mxCell id="i_n5pQmc-10EYHimAXUS-309" value="" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;labelPosition=left;align=right;endArrow=none;startArrow=classic;dashed=1" edge="1" parent="1">
